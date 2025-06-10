@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "PowerCode.PSTesting": {
+      "commandName": "Project"
+    },
+    "pwsh": {
+      "commandName": "Executable",
+      "executablePath": "C:\\program files\\PowerShell\\7\\pwsh.exe",
+      "commandLineArgs": "-noexit -command \"Import-Module .\\PowerCode.PSTesting.psd1\""
+    },
+    "FrostShell": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\FrostShell-Preview\\pwsh.exe",
+      "commandLineArgs": "-noexit -command \"ipmo .\\Powercode.PSTesting.psd1\""
+    }
+  }
+}
